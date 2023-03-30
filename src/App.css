@@ -1,0 +1,27 @@
+:root {
+  --charcoal: #212529;
+  --main-font: "Poppins";
+  --heading-font: "Caveat";
+}
+h1,
+h2 {
+  font-family: var(--heading-font);
+  color: var(--charcoal);
+  font-size: 75px;
+}
+
+p,
+h3,
+h4,
+li,
+footer {
+  font-family: var(--main-font);
+  color: var(--charcoal);
+}
+.small-divider {
+  width: 50%;
+  margin: 0 auto;
+}
+body {
+  overflow-x: hidden;
+}

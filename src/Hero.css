@@ -1,0 +1,11 @@
+.text-on-image {
+  position: absolute;
+
+  top: 40%;
+  left: 30%;
+  width: 40%;
+  background: rgba(255, 255, 255, 0.8);
+  padding: 25px;
+  border-radius: 9px;
+  box-shadow: 0 1rem 5rem rgba(254, 199, 122);
+}

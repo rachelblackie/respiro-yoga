@@ -1,0 +1,14 @@
+.navbar-left {
+  font-family: "Caveat", cursive;
+}
+.nav-links,
+.nav-dropdown {
+  font-family: "Poppins", sans-serif;
+}
+
+.nav-background {
+  background-color: rgb(254, 199, 122);
+}
+.nav-dropdown a {
+  color: var(--charcoal);
+}
