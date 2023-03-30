@@ -9,7 +9,7 @@ export default function Hero() {
       <div className="head-image position-relative">
         <img
           src={fireBackgroundMobile}
-          className="img-fluid"
+          className="img-fluid hero-background"
           alt="flames"
         ></img>
       </div>
