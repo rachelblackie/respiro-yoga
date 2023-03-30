@@ -1,12 +1,9 @@
-.tipo-de-clase {
-  display: none;
+.row {
+  --bs-gutter-x: 0;
 }
-
-@media (max-width: 450px) {
-  .col {
-    display: none;
-  }
-  .tipo-de-clase {
-    display: block;
-  }
+ul {
+  list-style: none;
+}
+.clases-image {
+  max-height: 250px;
 }

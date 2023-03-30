@@ -1,10 +1,11 @@
 import React from "react";
+import meditation from "./meditation.png";
 
 export default function Fina() {
   return (
     <div>
       <div className="row m-5">
-        <div className="col">
+        <div className="col-lg">
           <h1>Conoce a Fina</h1>
           <p>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur
@@ -18,10 +19,12 @@ export default function Fina() {
             imperdiet magna sollicitudin non.
           </p>
         </div>
-        <div className="col text-center my-auto">
-          <h3>
-            <i class="fa-solid fa-user-astronaut"></i>
-          </h3>
+        <div className="col-lg text-center my-auto">
+          <img
+            src={meditation}
+            className="img-fluid clases-image"
+            alt="illustration of woman meditating"
+          ></img>
         </div>
       </div>
     </div>

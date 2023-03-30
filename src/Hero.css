@@ -8,6 +8,9 @@
   border-radius: 9px;
   box-shadow: 0 1rem 5rem rgba(254, 199, 122);
 }
+.hero {
+  height: max-content;
+}
 
 @media (max-width: 450px) {
   .hero-heading {
@@ -20,5 +23,6 @@
   }
   .hero-background {
     padding-top: 60px;
+    height: fit-content;
   }
 }

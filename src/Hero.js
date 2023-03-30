@@ -5,11 +5,11 @@ import fireBackgroundMobile from "./fireBackgroundMobile.jpg";
 
 export default function Hero() {
   return (
-    <div className="head-text">
+    <div className="head-text hero">
       <div className="head-image position-relative">
         <img
           src={fireBackgroundMobile}
-          className="img-fluid hero-background"
+          className="hero-background img-fluid"
           alt="flames"
         ></img>
       </div>
