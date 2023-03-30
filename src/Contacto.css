@@ -1,0 +1,7 @@
+.contact-links {
+  text-decoration: none;
+  color: var(--charcoal);
+}
+.contact-links:hover {
+  text-decoration: underline;
+}

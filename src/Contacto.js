@@ -1,4 +1,5 @@
 import React from "react";
+import "./Contacto.css";
 
 export default function Contacto() {
   return (
@@ -7,15 +8,23 @@ export default function Contacto() {
 
       <h4>
         <a
-          href="https://wa.me/34655869477"
+          href="google.com"
           target="_blank"
           rel="noopener noreferrer"
+          className="contact-links"
         >
-          <i class="fa-brands fa-whatsapp"></i> +34 655 86 94 77
+          <i class="fa-brands fa-whatsapp"></i> +34 555 55 55 55
         </a>{" "}
       </h4>
       <h4>
-        <i class="fa-solid fa-square-envelope"></i> fina@gmail.com
+        <a
+          href="mailto:fakeaddress@gmail.com"
+          target="_blank"
+          rel="noopenener noreferrer"
+          className="contact-links"
+        >
+          <i class="fa-solid fa-square-envelope"></i> fakeaddress@gmail.com
+        </a>
       </h4>
     </div>
   );
