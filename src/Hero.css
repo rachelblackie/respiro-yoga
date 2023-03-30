@@ -1,6 +1,5 @@
 .text-on-image {
   position: absolute;
-
   top: 40%;
   left: 30%;
   width: 40%;
@@ -8,4 +7,15 @@
   padding: 25px;
   border-radius: 9px;
   box-shadow: 0 1rem 5rem rgba(254, 199, 122);
+}
+
+@media (max-width: 450px) {
+  .hero-heading {
+    font-size: 50px;
+  }
+  .text-on-image {
+    width: 70%;
+    left: 15%;
+    top: 25%;
+  }
 }
