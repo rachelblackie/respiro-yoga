@@ -1,0 +1,12 @@
+.tipo-de-clase {
+  display: none;
+}
+
+@media (max-width: 450px) {
+  .col {
+    display: none;
+  }
+  .tipo-de-clase {
+    display: block;
+  }
+}
