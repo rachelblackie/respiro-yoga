@@ -13,7 +13,6 @@ export default function Hero() {
           alt="flames"
         ></img>
       </div>
-
       <div className="text-on-image text-center">
         <h1 className="hero-heading">Respiro Yoga</h1>
         <h4>Lorem ipsum dolor sit amet</h4>
