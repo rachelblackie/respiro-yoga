@@ -24,7 +24,7 @@ export default function Menu() {
             <Nav className="mx-auto Nav nav-links">
               <Nav.Link href="#">Clases</Nav.Link>
               <Nav.Link href="#">Estudio</Nav.Link>
-              <Nav.Link href="#">Sobre Fina</Nav.Link>
+              <Nav.Link href="#">Tu Instructora</Nav.Link>
               <Nav.Link href="#">Contacto</Nav.Link>
             </Nav>
 
