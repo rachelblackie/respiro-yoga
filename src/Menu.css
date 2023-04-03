@@ -12,6 +12,9 @@
 .nav-dropdown a {
   color: var(--charcoal);
 }
+.dropdown-menu {
+  text-align: left;
+}
 
 @media (max-width: 450px) {
   .dropdown-menu {
