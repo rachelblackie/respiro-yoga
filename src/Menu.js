@@ -31,7 +31,7 @@ export default function Menu() {
             <NavDropdown
               title={
                 <span>
-                  <i class="fa-solid fa-globe"></i>
+                  <i class="fa-solid fa-language"></i>
                 </span>
               }
               id="basic-nav-dropdown"
