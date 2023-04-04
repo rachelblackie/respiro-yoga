@@ -29,7 +29,11 @@ export default function Menu() {
             </Nav>
 
             <NavDropdown
-              title="Idioma"
+              title={
+                <span>
+                  <i class="fa-solid fa-globe"></i>
+                </span>
+              }
               id="basic-nav-dropdown"
               className="nav-dropdown navbar-right"
             >
