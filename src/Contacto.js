@@ -1,6 +1,5 @@
 import React from "react";
 import "./Contacto.css";
-import { Link } from "react-scroll";
 
 export default function Contacto() {
   return (
@@ -27,11 +26,13 @@ export default function Contacto() {
           <i class="fa-solid fa-square-envelope"></i> fakeaddress@gmail.com
         </a>
       </h4>
-      <Link>
-        <h4 className="mt-5">
+
+      <h4 className="mt-5 back-to-top">
+        <a href="#hero">
           <i class="fa-solid fa-circle-chevron-up"></i>
-        </h4>
-      </Link>
+          <p>Volver arriba</p>
+        </a>
+      </h4>
     </div>
   );
 }

@@ -22,3 +22,9 @@ footer {
   width: 50%;
   margin: 0 auto;
 }
+#clases,
+#estudio,
+#fina,
+#contacto {
+  scroll-margin-top: 50px;
+}

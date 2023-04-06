@@ -1,9 +1,14 @@
 .carousel-image {
-  height: 500px;
-  object-fit: cover;
+  height: 400px;
+  object-fit: contain;
 }
 .carousel-text {
   background: rgb(255, 255, 255, 0.6);
+}
+.carousel {
+  background-color: var(--charcoal);
+  border-radius: 3px;
+  border: 1px solid var(--charcoal);
 }
 @media (max-width: 450px) {
   .carousel-image {

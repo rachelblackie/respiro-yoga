@@ -5,3 +5,7 @@
 .contact-links:hover {
   text-decoration: underline;
 }
+.back-to-top a {
+  color: var(--charcoal);
+  text-decoration: none;
+}

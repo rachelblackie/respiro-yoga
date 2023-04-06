@@ -1,51 +1,57 @@
 import React from "react";
 import Carousel from "react-bootstrap/Carousel";
-import yogaStudioOne from "./yogaStudioOne.jpg";
-import yogaStudioTwo from "./yogaStudioTwo.jpg";
-import yogaStudioThree from "./yogaStudioThree.jpg";
+import hotRoom from "./hotRoom.jpeg";
+import receptionArea from "./receptionArea.jpeg";
+import receptionDecor from "./receptionDecor.jpeg";
+import coatRack from "./coatRack.jpeg";
 import "./Estudio.css";
 
 export default function Estudio() {
   return (
-    <div id="estudio">
+    <div id="estudio" className="estudio">
       <h1 className="text-center m-3">Estudio</h1>
       <div className="container">
-        <Carousel>
+        <Carousel className="carousel">
           <Carousel.Item>
             <img
               className="d-block w-100 carousel-image"
-              src={yogaStudioOne}
+              src={hotRoom}
               alt="First slide"
             />
             <Carousel.Caption className="carousel-text">
-              <h3>First slide label</h3>
-              <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+              <h3>Hot Room</h3>
             </Carousel.Caption>
           </Carousel.Item>
           <Carousel.Item>
             <img
               className="d-block w-100 carousel-image"
-              src={yogaStudioTwo}
+              src={receptionArea}
               alt="Second slide"
             />
 
             <Carousel.Caption className="carousel-text">
-              <h3>Second slide label</h3>
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+              <h3>Zona de recepción</h3>
             </Carousel.Caption>
           </Carousel.Item>
           <Carousel.Item>
             <img
               className="d-block w-100 carousel-image"
-              src={yogaStudioThree}
+              src={receptionDecor}
               alt="Third slide"
             />
 
             <Carousel.Caption className="carousel-text">
-              <h3>Third slide label</h3>
-              <p>
-                Praesent commodo cursus magna, vel scelerisque nisl consectetur.
-              </p>
+              <h3>Zona de recepción</h3>
+            </Carousel.Caption>
+          </Carousel.Item>
+          <Carousel.Item>
+            <img
+              className="d-block w-100 carousel-image"
+              src={coatRack}
+              alt="Fourth slide"
+            />
+            <Carousel.Caption className="carousel-text">
+              <h3>Vestuario</h3>
             </Carousel.Caption>
           </Carousel.Item>
         </Carousel>
