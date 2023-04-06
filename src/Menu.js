@@ -22,16 +22,16 @@ export default function Menu() {
           <Navbar.Toggle aria-controls="responsive-navbar-nav" />
           <Navbar.Collapse id="responsive-navbar-nav" className="nav-collapse">
             <Nav className="mx-auto Nav nav-links">
-              <Nav.Link href="#">Clases</Nav.Link>
-              <Nav.Link href="#">Estudio</Nav.Link>
-              <Nav.Link href="#">Tu Instructora</Nav.Link>
-              <Nav.Link href="#">Contacto</Nav.Link>
+              <Nav.Link href="#clases">Clases</Nav.Link>
+              <Nav.Link href="#estudio">Estudio</Nav.Link>
+              <Nav.Link href="#fina">Tu Instructora</Nav.Link>
+              <Nav.Link href="#contacto">Contacto</Nav.Link>
             </Nav>
 
             <NavDropdown
               title={
                 <span>
-                  <i class="fa-solid fa-language"></i>
+                  <i class="fa-solid fa-globe"></i>
                 </span>
               }
               id="basic-nav-dropdown"

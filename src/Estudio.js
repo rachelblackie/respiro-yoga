@@ -7,7 +7,7 @@ import "./Estudio.css";
 
 export default function Estudio() {
   return (
-    <div>
+    <div id="estudio">
       <h1 className="text-center m-3">Estudio</h1>
       <div className="container">
         <Carousel>

@@ -4,7 +4,7 @@ import "./Clases.css";
 
 export default function Clases() {
   return (
-    <div>
+    <div id="clases">
       <h2 className="text-center m-3">Clases</h2>
       <div className="row m-5">
         <ul>

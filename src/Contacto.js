@@ -1,9 +1,10 @@
 import React from "react";
 import "./Contacto.css";
+import { Link } from "react-scroll";
 
 export default function Contacto() {
   return (
-    <div className="text-center m-5">
+    <div className="text-center m-5" id="contacto">
       <h2>Contacto</h2>
 
       <h4>
@@ -26,6 +27,11 @@ export default function Contacto() {
           <i class="fa-solid fa-square-envelope"></i> fakeaddress@gmail.com
         </a>
       </h4>
+      <Link>
+        <h4 className="mt-5">
+          <i class="fa-solid fa-circle-chevron-up"></i>
+        </h4>
+      </Link>
     </div>
   );
 }

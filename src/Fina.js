@@ -3,7 +3,7 @@ import meditation from "./meditation.png";
 
 export default function Fina() {
   return (
-    <div>
+    <div id="fina">
       <div className="row m-5">
         <div className="col-lg">
           <h1>Conoce a Fina</h1>

@@ -15,6 +15,9 @@
 .dropdown-menu {
   text-align: left;
 }
+.dropdown-menu[data-bs-popper] {
+  right: 0;
+}
 
 @media (max-width: 450px) {
   .dropdown-menu {
