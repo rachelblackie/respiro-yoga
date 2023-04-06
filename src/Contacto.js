@@ -23,7 +23,7 @@ export default function Contacto() {
           rel="noopenener noreferrer"
           className="contact-links"
         >
-          <i class="fa-solid fa-square-envelope"></i> fakeaddress@gmail.com
+          <i class="fa-solid fa-square-envelope"></i> placeholder@gmail.com
         </a>
       </h4>
 
