@@ -10,6 +10,11 @@ import Contacto from "./Contacto";
 function App() {
   const [ready, setReady] = useState(false);
 
+  let languageStoredInLocalStorage = localStorage.getItem("language");
+  let [language, setLanguage] = useState(
+    languageStoredInLocalStorage ? languageStoredInLocalStorage : "Castellano"
+  );
+
   useEffect(() => {
     setReady(true);
   }, []);
@@ -17,7 +22,13 @@ function App() {
   if (ready) {
     return (
       <div className="App">
-        <Menu />
+        <Menu
+          language={language}
+          handleSetLanguage={(language) => {
+            setLanguage(language);
+            storeLanguageInLocalStorage(language);
+          }}
+        />
         <Hero />
         <Clases />
         <Estudio />
@@ -35,6 +46,9 @@ function App() {
       </div>
     );
   }
+}
+function storeLanguageInLocalStorage(language) {
+  localStorage.setItem("language", language);
 }
 
 export default App;

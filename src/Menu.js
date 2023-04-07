@@ -5,7 +5,25 @@ import Navbar from "react-bootstrap/Navbar";
 import NavDropdown from "react-bootstrap/NavDropdown";
 import "./Menu.css";
 
-export default function Menu() {
+export default function Menu(props) {
+  let content = {
+    Castellano: {
+      clases: "Clases",
+      estudio: "Estudio",
+      instructora: "Tu Instructora",
+      contacto: "Contacto",
+    },
+    English: {
+      clases: "Classes",
+      estudio: "Studio",
+      instructora: "Your Instructor",
+      contacto: "Contact",
+    },
+  };
+  props.language === "English"
+    ? (content = content.English)
+    : (content = content.Castellano);
+
   return (
     <div>
       <Navbar
@@ -22,10 +40,10 @@ export default function Menu() {
           <Navbar.Toggle aria-controls="responsive-navbar-nav" />
           <Navbar.Collapse id="responsive-navbar-nav" className="nav-collapse">
             <Nav className="mx-auto Nav nav-links">
-              <Nav.Link href="#clases">Clases</Nav.Link>
-              <Nav.Link href="#estudio">Estudio</Nav.Link>
-              <Nav.Link href="#fina">Tu Instructora</Nav.Link>
-              <Nav.Link href="#contacto">Contacto</Nav.Link>
+              <Nav.Link href="#clases">{content.clases}</Nav.Link>
+              <Nav.Link href="#estudio">{content.estudio}</Nav.Link>
+              <Nav.Link href="#fina">{content.instructora}</Nav.Link>
+              <Nav.Link href="#contacto">{content.contacto}</Nav.Link>
             </Nav>
 
             <NavDropdown
@@ -40,6 +58,16 @@ export default function Menu() {
               <NavDropdown.Item href="#action/3.1">Castellano</NavDropdown.Item>
               <NavDropdown.Item href="#action/3.2">English</NavDropdown.Item>
             </NavDropdown>
+            <div className="language-select">
+              <select
+                className="custom-select"
+                value={props.language}
+                onChange={(e) => props.handleSetLanguage(e.target.value)}
+              >
+                <option value="Castellano">Castellano</option>
+                <option value="English">English</option>
+              </select>
+            </div>
           </Navbar.Collapse>
         </Container>
       </Navbar>

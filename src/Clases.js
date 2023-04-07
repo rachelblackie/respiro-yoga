@@ -2,10 +2,29 @@ import React from "react";
 import "./App.css";
 import "./Clases.css";
 
-export default function Clases() {
+export default function Clases(props) {
+  let content = {
+    Castellano: {
+      title: "Clases",
+      firstClass: "Tipo de clase",
+      secondClass: "Tipo de clase",
+      thirdClass: "Tipo de clase",
+      fourthClass: "Tipo de clase",
+    },
+    English: {
+      title: "Classes",
+      firstClass: "Class type",
+      secondClass: "Class type",
+      thirdClass: "Class type",
+      fourthClass: "Class type",
+    },
+  };
+  props.language === "English"
+    ? (content = content.English)
+    : (content = content.Castellano);
   return (
     <div id="clases">
-      <h2 className="text-center m-3">Clases</h2>
+      <h2 className="text-center m-3">{content.title}</h2>
       <div className="row m-5">
         <ul>
           <li>
