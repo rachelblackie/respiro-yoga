@@ -6,7 +6,7 @@ import fireBackgroundMobile from "./images/fireBackgroundMobile.jpg";
 function Hero(props) {
   let content = {
     Castellano: {
-      subtitle: "Estudio de yoga in Lliria",
+      subtitle: "Estudio de yoga en Lliria",
     },
     English: {
       subtitle: "Yoga studio in Lliria",
