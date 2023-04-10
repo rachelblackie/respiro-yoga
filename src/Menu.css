@@ -18,11 +18,17 @@
 .dropdown-menu[data-bs-popper] {
   right: 0;
 }
-
+.language-select {
+  text-align: right;
+  font-family: var(--main-font);
+}
 @media (max-width: 450px) {
   .dropdown-menu {
     position: inherit;
     text-align: right;
     border: none;
+  }
+  .language-select {
+    text-align: right;
   }
 }

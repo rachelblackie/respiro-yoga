@@ -2,10 +2,9 @@ import React from "react";
 import Container from "react-bootstrap/Container";
 import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
-import NavDropdown from "react-bootstrap/NavDropdown";
 import "./Menu.css";
 
-export default function Menu(props) {
+function Menu(props) {
   let content = {
     Castellano: {
       clases: "Clases",
@@ -46,19 +45,10 @@ export default function Menu(props) {
               <Nav.Link href="#contacto">{content.contacto}</Nav.Link>
             </Nav>
 
-            <NavDropdown
-              title={
-                <span>
-                  <i class="fa-solid fa-globe"></i>
-                </span>
-              }
-              id="basic-nav-dropdown"
-              className="nav-dropdown navbar-right"
-            >
-              <NavDropdown.Item href="#action/3.1">Castellano</NavDropdown.Item>
-              <NavDropdown.Item href="#action/3.2">English</NavDropdown.Item>
-            </NavDropdown>
             <div className="language-select">
+              <span className="m-2">
+                <i class="fa-solid fa-globe"></i>
+              </span>
               <select
                 className="custom-select"
                 value={props.language}
@@ -74,3 +64,4 @@ export default function Menu(props) {
     </div>
   );
 }
+export default Menu;

@@ -29,11 +29,41 @@ function App() {
             storeLanguageInLocalStorage(language);
           }}
         />
-        <Hero />
-        <Clases />
-        <Estudio />
-        <Fina />
-        <Contacto />
+        <Hero
+          language={language}
+          handleSetLanguage={(language) => {
+            setLanguage(language);
+            storeLanguageInLocalStorage(language);
+          }}
+        />
+        <Clases
+          language={language}
+          handleSetLanguage={(language) => {
+            setLanguage(language);
+            storeLanguageInLocalStorage(language);
+          }}
+        />
+        <Estudio
+          language={language}
+          handleSetLanguage={(language) => {
+            setLanguage(language);
+            storeLanguageInLocalStorage(language);
+          }}
+        />
+        <Fina
+          language={language}
+          handleSetLanguage={(language) => {
+            setLanguage(language);
+            storeLanguageInLocalStorage(language);
+          }}
+        />
+        <Contacto
+          language={language}
+          handleSetLanguage={(language) => {
+            setLanguage(language);
+            storeLanguageInLocalStorage(language);
+          }}
+        />
       </div>
     );
   } else {

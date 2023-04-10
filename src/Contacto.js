@@ -1,10 +1,23 @@
 import React from "react";
 import "./Contacto.css";
 
-export default function Contacto() {
+function Contacto(props) {
+  let content = {
+    Castellano: {
+      title: "Contacto",
+      toTop: "Volver arriba",
+    },
+    English: {
+      title: "Contact",
+      toTop: "Back to top",
+    },
+  };
+  props.language === "English"
+    ? (content = content.English)
+    : (content = content.Castellano);
   return (
     <div className="text-center m-5" id="contacto">
-      <h2>Contacto</h2>
+      <h2>{content.title}</h2>
 
       <h4>
         <a
@@ -30,9 +43,10 @@ export default function Contacto() {
       <h4 className="mt-5 back-to-top">
         <a href="#hero">
           <i class="fa-solid fa-circle-chevron-up"></i>
-          <p>Volver arriba</p>
+          <p>{content.toTop}</p>
         </a>
       </h4>
     </div>
   );
 }
+export default Contacto;

@@ -1,9 +1,20 @@
 import React from "react";
 
 import "./Hero.css";
-import fireBackgroundMobile from "./fireBackgroundMobile.jpg";
+import fireBackgroundMobile from "./images/fireBackgroundMobile.jpg";
 
-export default function Hero() {
+function Hero(props) {
+  let content = {
+    Castellano: {
+      subtitle: "Estudio de yoga in Lliria",
+    },
+    English: {
+      subtitle: "Yoga studio in Lliria",
+    },
+  };
+  props.language === "English"
+    ? (content = content.English)
+    : (content = content.Castellano);
   return (
     <div className="head-text hero" id="hero">
       <div className="head-image position-relative">
@@ -15,8 +26,9 @@ export default function Hero() {
       </div>
       <div className="text-on-image text-center">
         <h1 className="hero-heading">Respiro Yoga</h1>
-        <h4>Lorem ipsum dolor sit amet</h4>
+        <h4>{content.subtitle}</h4>
       </div>
     </div>
   );
 }
+export default Hero;
