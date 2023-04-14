@@ -5,11 +5,11 @@ function Fina(props) {
   let content = {
     Castellano: {
       title: "Conoce a Fina",
-      bio: "CASTELLANO Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur at viverra dui. Vestibulum nec egestas ipsum, ac ultricies magna. Aenean nec ornare lectus. Vestibulum vulputate nulla at pulvinar ullamcorper. Morbi tellus risus, finibus id ante eu, finibus consectetur nibh. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Pellentesque id interdum dolor. Suspendisse vestibulum aliquet imperdiet. Praesent et dolor quam. Cras vel scelerisque dui. Integer consectetur feugiat enim, id imperdiet magna sollicitudin non.",
+      bio: "En el año 2019 decidí tomar la senda del Yoga. Una transformación que me lleva a recorrer un camino. Un camino dónde no hay meta, sólo búsqueda gozosa a través del vehículo del cuerpo.",
     },
     English: {
       title: "Meet Fina",
-      bio: "ENGLISH Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur at viverra dui. Vestibulum nec egestas ipsum, ac ultricies magna. Aenean nec ornare lectus. Vestibulum vulputate nulla at pulvinar ullamcorper. Morbi tellus risus, finibus id ante eu, finibus consectetur nibh. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Pellentesque id interdum dolor. Suspendisse vestibulum aliquet imperdiet. Praesent et dolor quam. Cras vel scelerisque dui. Integer consectetur feugiat enim, id imperdiet magna sollicitudin non.",
+      bio: "In the year 2019 I decided to take the path of Yoga. It has been a transformation that leads me down a new path; a path on which there is no goal, only a joyous search through the vehicle of the body.",
     },
   };
   props.language === "English"

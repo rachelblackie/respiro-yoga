@@ -4,3 +4,6 @@ ul {
 .clases-image {
   max-height: 250px;
 }
+.sub-list {
+  list-style-type: disc;
+}

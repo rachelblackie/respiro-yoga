@@ -26,17 +26,17 @@ function Contacto(props) {
           rel="noopener noreferrer"
           className="contact-links"
         >
-          <i class="fa-brands fa-whatsapp"></i> +34 555 55 55 55
+          <i class="fa-brands fa-whatsapp"></i> +34 695 567 434
         </a>{" "}
       </h4>
       <h4>
         <a
-          href="mailto:fakeaddress@gmail.com"
+          href="mailto:yogafinaterapia@gmail.com"
           target="_blank"
           rel="noopenener noreferrer"
           className="contact-links"
         >
-          <i class="fa-solid fa-square-envelope"></i> placeholder@gmail.com
+          <i class="fa-solid fa-square-envelope"></i> yogafinaterapia@gmail.com
         </a>
       </h4>
 
