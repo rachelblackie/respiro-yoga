@@ -12,7 +12,7 @@ function Clases(props) {
   let content = {
     Castellano: {
       title: "Clases",
-      firstClass: "Bikram Yoga",
+      firstClass: "Hot Yoga",
       firstClassDescription: (
         <div>
           Clase de Yoga con calor
@@ -50,11 +50,13 @@ function Clases(props) {
           <li>
             Trabajamos postura, relajación físico-mental y equilibrio energético
           </li>
-          <li>
-            Disponible en clase privada, parejas, o grupos pequeños (máximo de 5
-            participantes)
-          </li>
         </ul>
+      ),
+      bottomLine: (
+        <div>
+          <div>Disponible en clase privada, parejas, o grupos pequeños</div>
+          <div> (máximo de 5 participantes)"</div>
+        </div>
       ),
       privateClassCaption: "Yoga para individuos",
       coupleClassCaption: "Yoga para parejas",
@@ -64,7 +66,7 @@ function Clases(props) {
     },
     English: {
       title: "Classes",
-      firstClass: "Bikram Yoga",
+      firstClass: "Hot Yoga",
       firstClassDescription: (
         <div>
           Hot Yoga class
@@ -101,11 +103,13 @@ function Clases(props) {
             We work on posture, physical and mental relaxation, and energy
             balance
           </li>
-          <li>
-            Available for individuals, couples, or small groups (maximum of 5
-            participants)
-          </li>
         </ul>
+      ),
+      bottomLine: (
+        <div>
+          <div>Available for individuals, couples, or small groups</div>
+          <div>(maximum of 5 participants)</div>
+        </div>
       ),
       privateClassCaption: "Yoga for individuals",
       coupleClassCaption: "Yoga for couples",
@@ -148,6 +152,7 @@ function Clases(props) {
               <li className="m-2">{content.fourthClassDescription}</li>
             </ul>
           </ul>
+          <p className="text-center">{content.bottomLine}</p>
         </div>
 
         <div className="col-lg my-auto">
