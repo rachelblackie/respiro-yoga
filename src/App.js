@@ -6,6 +6,7 @@ import Clases from "./Clases";
 import Estudio from "./Estudio";
 import Fina from "./Fina";
 import Contacto from "./Contacto";
+import AltHero from "./AltHero";
 
 function App() {
   const [ready, setReady] = useState(false);
@@ -29,13 +30,7 @@ function App() {
             storeLanguageInLocalStorage(language);
           }}
         />
-        <Hero
-          language={language}
-          handleSetLanguage={(language) => {
-            setLanguage(language);
-            storeLanguageInLocalStorage(language);
-          }}
-        />
+        <AltHero />
         <Clases
           language={language}
           handleSetLanguage={(language) => {
