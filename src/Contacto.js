@@ -21,7 +21,7 @@ function Contacto(props) {
 
       <h4>
         <a
-          href="google.com"
+          href="https://wa.me/34695567434"
           target="_blank"
           rel="noopener noreferrer"
           className="contact-links"
