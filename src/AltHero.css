@@ -4,3 +4,8 @@
   object-fit: contain;
   padding-top: 50px;
 }
+@media (max-width: 450px) {
+  .hero-background {
+    padding-top: 0;
+  }
+}
