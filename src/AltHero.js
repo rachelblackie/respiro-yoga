@@ -1,6 +1,6 @@
 import React from "react";
 import collage from "./images/collage.jpeg";
-import respiroCollage from "./images/respiroCollage.jpg";
+
 import "./AltHero.css";
 
 function AltHero() {

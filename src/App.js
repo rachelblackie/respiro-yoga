@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import "./App.css";
 import Menu from "./Menu";
-import Hero from "./Hero";
+
 import Clases from "./Clases";
 import Estudio from "./Estudio";
 import Fina from "./Fina";
