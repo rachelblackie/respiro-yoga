@@ -19,16 +19,16 @@ function Fina(props) {
   return (
     <div id="fina">
       <div className="row m-5">
-        <div className="col-lg">
-          <h1>{content.title}</h1>
-          <p>{content.bio}</p>
-        </div>
         <div className="col-lg text-center my-auto">
           <img
             src={finaYoga}
             className="img-fluid clases-image fina-photo"
             alt="yoga instructor"
           ></img>
+        </div>
+        <div className="col-lg">
+          <h1>{content.title}</h1>
+          <p>{content.bio}</p>
         </div>
       </div>
     </div>
