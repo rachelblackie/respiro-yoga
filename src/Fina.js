@@ -1,5 +1,6 @@
 import React from "react";
-import meditation from "./images/meditation.png";
+import "./Fina.css";
+import finaYoga from "./images/finaYoga.jpeg";
 
 function Fina(props) {
   let content = {
@@ -24,9 +25,9 @@ function Fina(props) {
         </div>
         <div className="col-lg text-center my-auto">
           <img
-            src={meditation}
-            className="img-fluid clases-image"
-            alt="illustration of woman meditating"
+            src={finaYoga}
+            className="img-fluid clases-image fina-photo"
+            alt="yoga instructor"
           ></img>
         </div>
       </div>

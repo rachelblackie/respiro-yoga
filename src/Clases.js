@@ -55,7 +55,7 @@ function Clases(props) {
       bottomLine: (
         <div>
           <div>Disponible en clase privada, parejas, o grupos pequeños</div>
-          <div> (máximo de 5 participantes)"</div>
+          <div> (máximo de 5 participantes)</div>
         </div>
       ),
       privateClassCaption: "Yoga para individuos",
