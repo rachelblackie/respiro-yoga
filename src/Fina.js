@@ -6,7 +6,7 @@ function Fina(props) {
   let content = {
     Castellano: {
       title: "Conoce a Fina",
-      bio: "Soy Fina, pero mi mente es amplia. Amo la vida al natural, pero tambièn en la literatura, la filosofía y el cine, que fueron mis primeras vocaciones. Me dediqué a decorar espacios durante algún tiempo. En el año 2019 decidí tomar la senda del Yoga. Una transformación que me lleva a recorrer un camino. Un camino dónde no hay meta, sólo búsqueda gozosa a través del vehículo del cuerpo.",
+      bio: "Soy Fina, pero mi mente es amplia. Amo la vida al natural, pero también en la literatura, la filosofía y el cine, que fueron mis primeras vocaciones. Me dediqué a decorar espacios durante algún tiempo. En el año 2019 decidí tomar la senda del Yoga. Una transformación que me lleva a recorrer un camino. Un camino dónde no hay meta, sólo búsqueda gozosa a través del vehículo del cuerpo.",
     },
     English: {
       title: "Meet Fina",
