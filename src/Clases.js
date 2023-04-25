@@ -5,8 +5,6 @@ import Carousel from "react-bootstrap/Carousel";
 import coupleClass from "./images/coupleClass.jpeg";
 import privateClass from "./images/privateClass.jpeg";
 import groupClass from "./images/groupClass.jpeg";
-import bikramYoga from "./images/bikramYoga.jpeg";
-import bikramYogaTwo from "./images/bikramYogaTwo.jpeg";
 
 function Clases(props) {
   let content = {
@@ -58,11 +56,9 @@ function Clases(props) {
           <div> (máximo de 5 participantes)</div>
         </div>
       ),
-      privateClassCaption: "Yoga para individuos",
-      coupleClassCaption: "Yoga para parejas",
+      privateClassCaption: "Clase privada de yoga",
+      coupleClassCaption: "Clase privada de yoga para parejas",
       groupClassCaption: "Clases en grupo reducido (máximo 5 personas)",
-      hotYogaOneCaption: "Hot Yoga",
-      hotYogaTwoCaption: "Hot Yoga",
     },
     English: {
       title: "Classes",
@@ -111,11 +107,9 @@ function Clases(props) {
           <div>(maximum of 5 participants)</div>
         </div>
       ),
-      privateClassCaption: "Yoga for individuals",
-      coupleClassCaption: "Yoga for couples",
+      privateClassCaption: "Private yoga class",
+      coupleClassCaption: "Private yoga class for couples",
       groupClassCaption: "Classes in small groups (maximum 5 people)",
-      hotYogaOneCaption: "Hot Yoga",
-      hotYogaTwoCaption: "Hot Yoga",
     },
   };
   props.language === "English"
@@ -169,7 +163,7 @@ function Clases(props) {
             </Carousel.Item>
             <Carousel.Item>
               <img
-                className="d-block w-100 carousel-image"
+                className="d-block w-100 clases-carousel-image"
                 src={coupleClass}
                 alt="First slide"
               />
@@ -179,32 +173,12 @@ function Clases(props) {
             </Carousel.Item>
             <Carousel.Item>
               <img
-                className="d-block w-100 carousel-image"
+                className="d-block w-100 clases-carousel-image"
                 src={groupClass}
                 alt="Clases en grupo"
               />
               <Carousel.Caption className="carousel-text">
                 <h3>{content.groupClassCaption}</h3>
-              </Carousel.Caption>
-            </Carousel.Item>
-            <Carousel.Item>
-              <img
-                className="d-block w-100 carousel-image"
-                src={bikramYoga}
-                alt="First slide"
-              />
-              <Carousel.Caption className="carousel-text">
-                <h3>{content.hotYogaOneCaption}</h3>
-              </Carousel.Caption>
-            </Carousel.Item>
-            <Carousel.Item>
-              <img
-                className="d-block w-100 carousel-image"
-                src={bikramYogaTwo}
-                alt="First slide"
-              />
-              <Carousel.Caption className="carousel-text">
-                <h3>{content.hotYogaTwoCaption}</h3>
               </Carousel.Caption>
             </Carousel.Item>
           </Carousel>

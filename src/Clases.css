@@ -1,9 +1,16 @@
 ul {
   list-style: none;
 }
-.clases-image {
-  max-height: 250px;
-}
+
 .sub-list {
   list-style-type: disc;
+}
+.clases-carousel-image {
+  height: 400px;
+  object-fit: contain;
+}
+@media (max-width: 450px) {
+  .clases-carousel-image {
+    height: 300px;
+  }
 }

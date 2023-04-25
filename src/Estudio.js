@@ -4,35 +4,38 @@ import hotRoom from "./images/hotRoom.jpeg";
 import receptionArea from "./images/receptionArea.jpeg";
 import receptionDecor from "./images/receptionDecor.jpeg";
 import coatRack from "./images/coatRack.jpeg";
-import collage from "./images/collage.jpeg";
 import shower from "./images/shower.jpeg";
 import sink from "./images/sink.jpeg";
 import vista from "./images/vista.jpeg";
+import yogaClass from "./images/yogaClass.jpeg";
+import yogaStudents from "./images/yogaStudents.jpeg";
+import yogaStudio from "./images/yogaStudio.jpeg";
+import heater from "./images/heater.jpeg";
+import rainbowVista from "./images/rainbowVista.jpeg";
+import eveningVista from "./images/eveningVista.jpeg";
 import "./Estudio.css";
 
 function Estudio(props) {
   let content = {
     Castellano: {
       title: "Estudio",
-      slideOne: "Respiro Yoga",
-      slideTwo: "Hot Room",
-      slideThree: "Vista desde el estudio",
-      slideFour: "Zona de recepción",
-      slideFive: "Zona de recepción",
-      slideSix: "Vestuario",
-      slideSeven: "Ducha",
-      slideEight: "Baño",
+      hotRoom: "Hot Room",
+      vista: "Vista desde el estudio",
+      reception: "Zona de recepción",
+      vestuario: "Vestuario",
+      shower: "Ducha",
+      bathroom: "Baño",
+      yogaClass: "Clase de yoga",
     },
     English: {
       title: "Studio",
-      slideOne: "Respiro Yoga",
-      slideTwo: "Hot Room",
-      slideThree: "View from the studio",
-      slideFour: "Reception area",
-      slideFive: "Reception area",
-      slideSix: "Changing area",
-      slideSeven: "Shower",
-      slideEight: "Bathroom",
+      hotRoom: "Hot Room",
+      vista: "View from the studio",
+      reception: "Reception area",
+      vestuario: "Changing area",
+      shower: "Shower",
+      bathroom: "Bathroom",
+      yogaClass: "Yoga class",
     },
   };
   props.language === "English"
@@ -46,23 +49,54 @@ function Estudio(props) {
           <Carousel.Item>
             <img
               className="d-block w-100 carousel-image"
-              src={collage}
-              alt="First slide"
+              src={hotRoom}
+              alt="Yoga studio"
             />
             <Carousel.Caption className="carousel-text">
-              <h3>{content.slideOne}</h3>
+              <h3>{content.hotRoom}</h3>
             </Carousel.Caption>
           </Carousel.Item>
           <Carousel.Item>
             <img
               className="d-block w-100 carousel-image"
-              src={hotRoom}
+              src={yogaStudio}
               alt="Yoga studio"
             />
             <Carousel.Caption className="carousel-text">
-              <h3>{content.slideTwo}</h3>
+              <h3>{content.hotRoom}</h3>
             </Carousel.Caption>
           </Carousel.Item>
+          <Carousel.Item>
+            <img
+              className="d-block w-100 carousel-image"
+              src={heater}
+              alt="Yoga class in progress"
+            />
+            <Carousel.Caption className="carousel-text">
+              <h3>{content.hotRoom}</h3>
+            </Carousel.Caption>
+          </Carousel.Item>
+          <Carousel.Item>
+            <img
+              className="d-block w-100 carousel-image"
+              src={yogaClass}
+              alt="Yoga class in progress"
+            />
+            <Carousel.Caption className="carousel-text">
+              <h3>{content.yogaClass}</h3>
+            </Carousel.Caption>
+          </Carousel.Item>
+          <Carousel.Item>
+            <img
+              className="d-block w-100 carousel-image"
+              src={yogaStudents}
+              alt="Yoga class in progress"
+            />
+            <Carousel.Caption className="carousel-text">
+              <h3>{content.yogaClass}</h3>
+            </Carousel.Caption>
+          </Carousel.Item>
+
           <Carousel.Item>
             <img
               className="d-block w-100 carousel-image"
@@ -70,7 +104,27 @@ function Estudio(props) {
               alt="View from yoga studio"
             />
             <Carousel.Caption className="carousel-text">
-              <h3>{content.slideThree}</h3>
+              <h3>{content.vista}</h3>
+            </Carousel.Caption>
+          </Carousel.Item>
+          <Carousel.Item>
+            <img
+              className="d-block w-100 carousel-image"
+              src={rainbowVista}
+              alt="View from yoga studio"
+            />
+            <Carousel.Caption className="carousel-text">
+              <h3>{content.vista}</h3>
+            </Carousel.Caption>
+          </Carousel.Item>
+          <Carousel.Item>
+            <img
+              className="d-block w-100 carousel-image"
+              src={eveningVista}
+              alt="View from yoga studio"
+            />
+            <Carousel.Caption className="carousel-text">
+              <h3>{content.vista}</h3>
             </Carousel.Caption>
           </Carousel.Item>
           <Carousel.Item>
@@ -81,7 +135,7 @@ function Estudio(props) {
             />
 
             <Carousel.Caption className="carousel-text">
-              <h3>{content.slideFour}</h3>
+              <h3>{content.reception}</h3>
             </Carousel.Caption>
           </Carousel.Item>
           <Carousel.Item>
@@ -92,7 +146,7 @@ function Estudio(props) {
             />
 
             <Carousel.Caption className="carousel-text">
-              <h3>{content.slideFive}</h3>
+              <h3>{content.reception}</h3>
             </Carousel.Caption>
           </Carousel.Item>
           <Carousel.Item>
@@ -102,7 +156,7 @@ function Estudio(props) {
               alt="Yoga studio changing area"
             />
             <Carousel.Caption className="carousel-text">
-              <h3>{content.slideSix}</h3>
+              <h3>{content.vestuario}</h3>
             </Carousel.Caption>
           </Carousel.Item>
           <Carousel.Item>
@@ -112,7 +166,7 @@ function Estudio(props) {
               alt="Yoga studio shower"
             />
             <Carousel.Caption className="carousel-text">
-              <h3>{content.slideSeven}</h3>
+              <h3>{content.shower}</h3>
             </Carousel.Caption>
           </Carousel.Item>
           <Carousel.Item>
@@ -122,7 +176,7 @@ function Estudio(props) {
               alt="Yoga studio bathroom"
             />
             <Carousel.Caption className="carousel-text">
-              <h3>{content.slideEight}</h3>
+              <h3>{content.bathroom}</h3>
             </Carousel.Caption>
           </Carousel.Item>
         </Carousel>
