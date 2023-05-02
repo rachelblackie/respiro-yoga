@@ -6,10 +6,12 @@ function Contacto(props) {
     Castellano: {
       title: "Contacto",
       toTop: "Volver arriba",
+      author: "Sitio web de",
     },
     English: {
       title: "Contact",
       toTop: "Back to top",
+      author: "Website by",
     },
   };
   props.language === "English"
@@ -46,6 +48,17 @@ function Contacto(props) {
           <p>{content.toTop}</p>
         </a>
       </h4>
+      <p className="rachelSite">
+        {content.author}{" "}
+        <a
+          href="http://www.rblackie.com"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Rachel Blackie
+        </a>
+        , 2023
+      </p>
     </div>
   );
 }
