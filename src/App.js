@@ -1,12 +1,11 @@
 import React, { useState, useEffect } from "react";
 import "./App.css";
-import Menu from "./Menu";
-
-import Clases from "./Clases";
-import Estudio from "./Estudio";
-import Fina from "./Fina";
-import Contacto from "./Contacto";
-import AltHero from "./AltHero";
+import Menu from "./components/Menu";
+import Clases from "./components/Clases";
+import Estudio from "./components/Estudio";
+import Fina from "./components/Fina";
+import Contacto from "./components/Contacto";
+import AltHero from "./components/AltHero";
 
 function App() {
   const [ready, setReady] = useState(false);
