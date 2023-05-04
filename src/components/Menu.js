@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import Container from "react-bootstrap/Container";
 import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
-import "./Menu.css";
+import "../styles/Menu.css";
 
 function Menu(props) {
   const [expanded, setExpanded] = useState(false);

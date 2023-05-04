@@ -1,19 +1,19 @@
 import React from "react";
 import Carousel from "react-bootstrap/Carousel";
-import hotRoom from "./images/hotRoom.jpeg";
-import receptionArea from "./images/receptionArea.jpeg";
-import receptionDecor from "./images/receptionDecor.jpeg";
-import coatRack from "./images/coatRack.jpeg";
-import shower from "./images/shower.jpeg";
-import sink from "./images/sink.jpeg";
-import vista from "./images/vista.jpeg";
-import yogaClass from "./images/yogaClass.jpeg";
-import yogaStudents from "./images/yogaStudents.jpeg";
-import yogaStudio from "./images/yogaStudio.jpeg";
-import heater from "./images/heater.jpeg";
-import rainbowVista from "./images/rainbowVista.jpeg";
-import eveningVista from "./images/eveningVista.jpeg";
-import "./Estudio.css";
+import hotRoom from "../images/hotRoom.jpeg";
+import receptionArea from "../images/receptionArea.jpeg";
+import receptionDecor from "../images/receptionDecor.jpeg";
+import coatRack from "../images/coatRack.jpeg";
+import shower from "../images/shower.jpeg";
+import sink from "../images/sink.jpeg";
+import vista from "../images/vista.jpeg";
+import yogaClass from "../images/yogaClass.jpeg";
+import yogaStudents from "../images/yogaStudents.jpeg";
+import yogaStudio from "../images/yogaStudio.jpeg";
+import heater from "../images/heater.jpeg";
+import rainbowVista from "../images/rainbowVista.jpeg";
+import eveningVista from "../images/eveningVista.jpeg";
+import "../styles/Estudio.css";
 
 function Estudio(props) {
   let content = {

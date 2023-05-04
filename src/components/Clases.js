@@ -1,10 +1,10 @@
 import React from "react";
-import "./App.css";
-import "./Clases.css";
+import "../App.css";
+import "../styles/Clases.css";
 import Carousel from "react-bootstrap/Carousel";
-import coupleClass from "./images/coupleClass.jpeg";
-import privateClass from "./images/privateClass.jpeg";
-import groupClass from "./images/groupClass.jpeg";
+import coupleClass from "../images/coupleClass.jpeg";
+import privateClass from "../images/privateClass.jpeg";
+import groupClass from "../images/groupClass.jpeg";
 
 function Clases(props) {
   let content = {

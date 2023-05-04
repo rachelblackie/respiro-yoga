@@ -1,7 +1,7 @@
 import React from "react";
-import collage from "./images/collage.jpeg";
-import brickWall from "./images/brickWall.jpg";
-import "./AltHero.css";
+import collage from "../images/collage.jpeg";
+import brickWall from "../images/brickWall.jpg";
+import "../styles/AltHero.css";
 
 function AltHero() {
   return (

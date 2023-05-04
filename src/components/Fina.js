@@ -1,6 +1,6 @@
 import React from "react";
-import "./Fina.css";
-import finaYogaTwo from "./images/finaYogaTwo.gif";
+import "../styles/Fina.css";
+import finaYogaTwo from "../images/finaYogaTwo.gif";
 
 function Fina(props) {
   let content = {

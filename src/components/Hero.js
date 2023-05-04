@@ -1,7 +1,7 @@
 import React from "react";
 
-import "./Hero.css";
-import fireBackgroundMobile from "./images/fireBackgroundMobile.jpg";
+import "../styles/Hero.css";
+import fireBackgroundMobile from "../images/fireBackgroundMobile.jpg";
 
 function Hero(props) {
   let content = {
